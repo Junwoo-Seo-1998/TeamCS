@@ -1,0 +1,15 @@
+{
+    "Transform_Component":
+    {
+        "translation":[100,0]
+    },
+    "Graphics_Component":
+    {
+        
+    },
+    "Physics_Component":
+    {
+
+    },
+    "ComponentsToBeAdded":["Gun_Component"]
+}

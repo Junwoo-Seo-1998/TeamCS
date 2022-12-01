@@ -1,0 +1,19 @@
+{
+    "objects": [
+        {
+            "Transform_Component":
+            {
+                "scale":[200,50]
+            },
+            "Graphics_Component":
+            {
+                "texture":"Textures/credit.png"
+            },
+            "Physics_Component":
+            {
+        
+            },
+            "ComponentsToBeAdded":["Credit_texture_Component"]
+        }
+    ]
+}

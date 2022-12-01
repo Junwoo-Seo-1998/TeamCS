@@ -1,0 +1,8 @@
+{
+    "CS_InitData":{
+        "Title":"team cs:our first engine game!",
+        "StartStage":"Level1_Stage",
+        "Width": 1280,
+        "Height": 768
+    }
+}

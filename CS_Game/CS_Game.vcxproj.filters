@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Game_Component">
+      <UniqueIdentifier>{0b18e444-a691-4639-88e9-c5132c2c5e3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Stages">
+      <UniqueIdentifier>{1857a525-e308-41de-8479-9511aae51dff}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy_Component.cpp">
+      <Filter>Game_Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Player_Component.cpp">
+      <Filter>Game_Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu_Stage.cpp">
+      <Filter>Stages</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay_Stage.cpp">
+      <Filter>Stages</Filter>
+    </ClCompile>
+    <ClCompile Include="Edit_Stage.cpp">
+      <Filter>Stages</Filter>
+    </ClCompile>
+    <ClCompile Include="Test_Stage.cpp">
+      <Filter>Stages</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet_Component.cpp">
+      <Filter>Game_Component</Filter>
+    </ClCompile>
+    <ClCompile Include="CooldownBar_Component.cpp">
+      <Filter>Game_Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Waving_Enemy_Component.cpp">
+      <Filter>Game_Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Waving_Tracing_Enemy_Component.cpp">
+      <Filter>Game_Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Straight_Enemy_Component.cpp">
+      <Filter>Game_Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Gun_Component.cpp">
+      <Filter>Game_Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Logo_Component.cpp">
+      <Filter>Game_Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Button_Component.cpp">
+      <Filter>Game_Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Logo_Stage.cpp">
+      <Filter>Stages</Filter>
+    </ClCompile>
+    <ClCompile Include="Start_Button_Component.cpp">
+      <Filter>Game_Component</Filter>
+    </ClCompile>
+    <ClCompile Include="End_Button_Component.cpp">
+      <Filter>Game_Component</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyBullet_Component.cpp">
+      <Filter>Game_Component</Filter>
+    </ClCompile>
+    <ClCompile Include="HP_Component.cpp">
+      <Filter>Game_Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Clear_Stage.cpp">
+      <Filter>Stages</Filter>
+    </ClCompile>
+    <ClCompile Include="Clear_Component.cpp">
+      <Filter>Game_Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Lose_Component.cpp">
+      <Filter>Game_Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Lose_Stage.cpp">
+      <Filter>Stages</Filter>
+    </ClCompile>
+    <ClCompile Include="Flash_Component.cpp">
+      <Filter>Game_Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Goal_Component.cpp">
+      <Filter>Game_Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Explosion_Component.cpp">
+      <Filter>Game_Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Credit_Stage.cpp">
+      <Filter>Stages</Filter>
+    </ClCompile>
+    <ClCompile Include="Credit_Component.cpp">
+      <Filter>Game_Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Background_Component.cpp">
+      <Filter>Game_Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Credit_texture_Component.cpp">
+      <Filter>Game_Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Clear_texture_Component.cpp">
+      <Filter>Game_Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Lose_texture_Component.cpp">
+      <Filter>Game_Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Background_NO_Adv_Component.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FMOD_Logo_Stage.cpp">
+      <Filter>Stages</Filter>
+    </ClCompile>
+    <ClCompile Include="FMOD_Logo_Component.cpp">
+      <Filter>Game_Component</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Player_Component.hpp">
+      <Filter>Game_Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy_Component.hpp">
+      <Filter>Game_Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu_Stage.hpp">
+      <Filter>Stages</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay_Stage.hpp">
+      <Filter>Stages</Filter>
+    </ClInclude>
+    <ClInclude Include="Edit_Stage.hpp">
+      <Filter>Stages</Filter>
+    </ClInclude>
+    <ClInclude Include="Test_Stage.hpp">
+      <Filter>Stages</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet_Component.hpp">
+      <Filter>Game_Component</Filter>
+    </ClInclude>
+    <ClInclude Include="CooldownBar_Component.hpp">
+      <Filter>Game_Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Waving_Enemy_Component.hpp">
+      <Filter>Game_Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Waving_Tracing_Enemy_Component.hpp">
+      <Filter>Game_Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Straight_Enemy_Component.hpp">
+      <Filter>Game_Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Gun_Component.hpp">
+      <Filter>Game_Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Logo_Component.hpp">
+      <Filter>Game_Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Button_Component.hpp">
+      <Filter>Game_Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Logo_Stage.hpp">
+      <Filter>Stages</Filter>
+    </ClInclude>
+    <ClInclude Include="Start_Button_Component.hpp">
+      <Filter>Game_Component</Filter>
+    </ClInclude>
+    <ClInclude Include="End_Button_Component.hpp">
+      <Filter>Game_Component</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyBullet_Component.hpp">
+      <Filter>Game_Component</Filter>
+    </ClInclude>
+    <ClInclude Include="HP_Component.hpp">
+      <Filter>Game_Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Clear_Stage.hpp">
+      <Filter>Stages</Filter>
+    </ClInclude>
+    <ClInclude Include="Clear_Component.hpp">
+      <Filter>Game_Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Lose_Component.hpp">
+      <Filter>Game_Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Lose_Stage.hpp">
+      <Filter>Stages</Filter>
+    </ClInclude>
+    <ClInclude Include="Flash_Component.hpp">
+      <Filter>Game_Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Goal_Component.hpp">
+      <Filter>Game_Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Explosion_Component.hpp">
+      <Filter>Game_Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Credit_Stage.hpp">
+      <Filter>Stages</Filter>
+    </ClInclude>
+    <ClInclude Include="Credit_Component.hpp">
+      <Filter>Game_Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Background_Component.hpp">
+      <Filter>Game_Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Credit_texture_Component.hpp">
+      <Filter>Game_Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Clear_texture_Component.hpp">
+      <Filter>Game_Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Lose_texture_Component.hpp">
+      <Filter>Game_Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Background_NO_Adv_Component.hpp">
+      <Filter>Game_Component</Filter>
+    </ClInclude>
+    <ClInclude Include="FMOD_Logo_Stage.hpp">
+      <Filter>Stages</Filter>
+    </ClInclude>
+    <ClInclude Include="FMOD_Logo_Component.hpp">
+      <Filter>Game_Component</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

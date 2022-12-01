@@ -1,0 +1,69 @@
+{
+    "objects": [
+        {
+            "Transform_Component":
+            {
+                "translation":[100, 200],
+                "scale":[300,100]
+            },
+            "Graphics_Component":
+            {
+                "texture":"Textures/Start.png"
+            },
+            "Physics_Component":
+            {
+        
+            },
+            "ComponentsToBeAdded":["Start_Button_Component"]
+        },
+        {
+            "Transform_Component":
+            {
+                "translation":[100, -200],
+                "scale":[300,100]
+            },
+            "Graphics_Component":
+            {
+                "texture":"Textures/Credits.png"
+            },
+            "Physics_Component":
+            {
+        
+            },
+            "ComponentsToBeAdded":["Credit_Component"]
+        },
+        {
+            "Transform_Component":
+            {
+                "translation":[100, -200],
+                "scale":[300,100]
+            },
+            "Graphics_Component":
+            {
+                "texture":"Textures/Quit.png"
+            },
+            "Physics_Component":
+            {
+        
+            },
+            "ComponentsToBeAdded":["End_Button_Component"]
+        },
+        {
+            "Transform_Component":
+            {
+                "translation":[0, 0],
+                "scale":[1500, 1500],
+                "depth":0.8
+            },
+            "Graphics_Component":
+            {
+                "texture":"Textures/BG1.png"
+            },
+            "Physics_Component":
+            {
+        
+            },
+            "ComponentsToBeAdded":["Background_NO_Adv_Component"]
+        }
+    ]
+}

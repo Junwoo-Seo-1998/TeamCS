@@ -1,0 +1,17 @@
+{
+    "Transform_Component":
+    {
+        "translation":[100, 100],
+        "scale":[200,50]
+    },
+    "Graphics_Component":
+    {
+        "texture":"Textures/DigipenLogo.png"
+    },
+    "Physics_Component":
+    {
+
+    },
+
+    "ComponentsToBeAdded":["Logo_Component"]
+}

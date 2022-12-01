@@ -1,0 +1,14 @@
+{
+    "Transform_Component":
+    {
+    },
+    "Graphics_Component":
+    {
+        "texture":"Textures/Health.png"
+    },
+    "Physics_Component":
+    {
+
+    },
+    "ComponentsToBeAdded":["HP_Component"]
+}

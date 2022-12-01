@@ -1,0 +1,17 @@
+{
+    "Transform_Component":
+    {
+        "translation":[500,0],
+        "scale":[100,100]
+    },
+    "Graphics_Component":
+    {
+        "texture":"Textures/Missile.png"
+    },
+    "Physics_Component":
+    {
+        "velocity":[-200,0]
+    },
+
+    "ComponentsToBeAdded":["Straight_Enemy_Component", "SphereCollider_Component"]
+}

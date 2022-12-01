@@ -1,0 +1,19 @@
+{
+    "objects": [
+        {
+            "Transform_Component":
+            {
+                "scale":[200,50]
+            },
+            "Graphics_Component":
+            {
+                "texture":"Textures/DigipenLogo.png"
+            },
+            "Physics_Component":
+            {
+        
+            },
+            "ComponentsToBeAdded":["Logo_Component"]
+        }
+    ]
+}

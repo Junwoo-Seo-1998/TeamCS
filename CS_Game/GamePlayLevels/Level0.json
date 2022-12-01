@@ -1,0 +1,804 @@
+{
+    "objects": [
+        {
+            "Name": "Player",
+            "Archetype": "Player",
+            "Transform_Component": {
+                "translation": [
+                    -425.0,
+                    0.5
+                ],
+                "rotation": 0.0,
+                "scale": [
+                    100.0,
+                    100.0
+                ],
+                "depth": 0.5
+            },
+            "Graphics_Component": {
+                "drawspace": "World",
+                "texture": "Textures/Plane.png"
+            },
+            "Physics_Component": {},
+            "ComponentsToBeAdded": [
+                "Player_Component",
+                "Gun_Component",
+                "SphereCollider_Component"
+            ],
+            "Player_Component": {},
+            "Gun_Component": {},
+            "SphereCollider_Component": {}
+        },
+        {
+            "Name": "Enemy",
+            "Archetype": "Straight_Enemy",
+            "Transform_Component": {
+                "translation": [
+                    448.3570556640625,
+                    270.5
+                ],
+                "rotation": 0.0,
+                "scale": [
+                    100.0,
+                    100.0
+                ],
+                "depth": 0.5
+            },
+            "Graphics_Component": {
+                "drawspace": "World",
+                "texture": "Textures/Missile.png"
+            },
+            "Physics_Component": {},
+            "ComponentsToBeAdded": [
+                "Straight_Enemy_Component",
+                "SphereCollider_Component"
+            ],
+            "Straight_Enemy_Component": {},
+            "SphereCollider_Component": {}
+        },
+        {
+            "Name": "Enemy",
+            "Archetype": "Straight_Enemy",
+            "Transform_Component": {
+                "translation": [
+                    448.3570556640625,
+                    133.5
+                ],
+                "rotation": 0.0,
+                "scale": [
+                    100.0,
+                    100.0
+                ],
+                "depth": 0.5
+            },
+            "Graphics_Component": {
+                "drawspace": "World",
+                "texture": "Textures/Missile.png"
+            },
+            "Physics_Component": {},
+            "ComponentsToBeAdded": [
+                "Straight_Enemy_Component",
+                "SphereCollider_Component"
+            ],
+            "Straight_Enemy_Component": {},
+            "SphereCollider_Component": {}
+        },
+        {
+            "Name": "Enemy",
+            "Archetype": "Straight_Enemy",
+            "Transform_Component": {
+                "translation": [
+                    449.3570556640625,
+                    -9.5
+                ],
+                "rotation": 0.0,
+                "scale": [
+                    100.0,
+                    100.0
+                ],
+                "depth": 0.5
+            },
+            "Graphics_Component": {
+                "drawspace": "World",
+                "texture": "Textures/Missile.png"
+            },
+            "Physics_Component": {},
+            "ComponentsToBeAdded": [
+                "Straight_Enemy_Component",
+                "SphereCollider_Component"
+            ],
+            "Straight_Enemy_Component": {},
+            "SphereCollider_Component": {}
+        },
+        {
+            "Name": "Enemy",
+            "Archetype": "Straight_Enemy",
+            "Transform_Component": {
+                "translation": [
+                    449.3570556640625,
+                    -132.5
+                ],
+                "rotation": 0.0,
+                "scale": [
+                    100.0,
+                    100.0
+                ],
+                "depth": 0.5
+            },
+            "Graphics_Component": {
+                "drawspace": "World",
+                "texture": "Textures/Missile.png"
+            },
+            "Physics_Component": {},
+            "ComponentsToBeAdded": [
+                "Straight_Enemy_Component",
+                "SphereCollider_Component"
+            ],
+            "Straight_Enemy_Component": {},
+            "SphereCollider_Component": {}
+        },
+        {
+            "Name": "Enemy",
+            "Archetype": "Straight_Enemy",
+            "Transform_Component": {
+                "translation": [
+                    456.3570556640625,
+                    -281.5
+                ],
+                "rotation": 0.0,
+                "scale": [
+                    100.0,
+                    100.0
+                ],
+                "depth": 0.5
+            },
+            "Graphics_Component": {
+                "drawspace": "World",
+                "texture": "Textures/Missile.png"
+            },
+            "Physics_Component": {},
+            "ComponentsToBeAdded": [
+                "Straight_Enemy_Component",
+                "SphereCollider_Component"
+            ],
+            "Straight_Enemy_Component": {},
+            "SphereCollider_Component": {}
+        },
+        {
+            "Name": "Enemy",
+            "Archetype": "Enemy",
+            "Transform_Component": {
+                "translation": [
+                    994.6920166015625,
+                    230.5
+                ],
+                "rotation": 0.0,
+                "scale": [
+                    100.0,
+                    100.0
+                ],
+                "depth": 0.5
+            },
+            "Graphics_Component": {
+                "drawspace": "World",
+                "texture": "Textures/Wheel.png"
+            },
+            "Physics_Component": {},
+            "ComponentsToBeAdded": [
+                "Enemy_Component",
+                "SphereCollider_Component"
+            ],
+            "Enemy_Component": {},
+            "SphereCollider_Component": {}
+        },
+        {
+            "Name": "Enemy",
+            "Archetype": "Enemy",
+            "Transform_Component": {
+                "translation": [
+                    991.6920166015625,
+                    70.5
+                ],
+                "rotation": 0.0,
+                "scale": [
+                    100.0,
+                    100.0
+                ],
+                "depth": 0.5
+            },
+            "Graphics_Component": {
+                "drawspace": "World",
+                "texture": "Textures/Wheel.png"
+            },
+            "Physics_Component": {},
+            "ComponentsToBeAdded": [
+                "Enemy_Component",
+                "SphereCollider_Component"
+            ],
+            "Enemy_Component": {},
+            "SphereCollider_Component": {}
+        },
+        {
+            "Name": "Enemy",
+            "Archetype": "Enemy",
+            "Transform_Component": {
+                "translation": [
+                    993.6920166015625,
+                    -89.5
+                ],
+                "rotation": 0.0,
+                "scale": [
+                    100.0,
+                    100.0
+                ],
+                "depth": 0.5
+            },
+            "Graphics_Component": {
+                "drawspace": "World",
+                "texture": "Textures/Wheel.png"
+            },
+            "Physics_Component": {},
+            "ComponentsToBeAdded": [
+                "Enemy_Component",
+                "SphereCollider_Component"
+            ],
+            "Enemy_Component": {},
+            "SphereCollider_Component": {}
+        },
+        {
+            "Name": "Enemy",
+            "Archetype": "Enemy",
+            "Transform_Component": {
+                "translation": [
+                    989.6920166015625,
+                    -253.5
+                ],
+                "rotation": 0.0,
+                "scale": [
+                    100.0,
+                    100.0
+                ],
+                "depth": 0.5
+            },
+            "Graphics_Component": {
+                "drawspace": "World",
+                "texture": "Textures/Wheel.png"
+            },
+            "Physics_Component": {},
+            "ComponentsToBeAdded": [
+                "Enemy_Component",
+                "SphereCollider_Component"
+            ],
+            "Enemy_Component": {},
+            "SphereCollider_Component": {}
+        },
+        {
+            "Name": "Enemy",
+            "Archetype": "Waving_Tracing_Enemy",
+            "Transform_Component": {
+                "translation": [
+                    1483.4249267578126,
+                    161.5
+                ],
+                "rotation": 0.0,
+                "scale": [
+                    100.0,
+                    100.0
+                ],
+                "depth": 0.5
+            },
+            "Graphics_Component": {
+                "drawspace": "World",
+                "texture": "Textures/Wheel.png"
+            },
+            "Physics_Component": {},
+            "ComponentsToBeAdded": [
+                "Waving_Tracing_Enemy_Component",
+                "SphereCollider_Component"
+            ],
+            "Waving_Tracing_Enemy_Component": {},
+            "SphereCollider_Component": {}
+        },
+        {
+            "Name": "Enemy",
+            "Archetype": "Waving_Tracing_Enemy",
+            "Transform_Component": {
+                "translation": [
+                    1486.4249267578126,
+                    -1.5
+                ],
+                "rotation": 0.0,
+                "scale": [
+                    100.0,
+                    100.0
+                ],
+                "depth": 0.5
+            },
+            "Graphics_Component": {
+                "drawspace": "World",
+                "texture": "Textures/Wheel.png"
+            },
+            "Physics_Component": {},
+            "ComponentsToBeAdded": [
+                "Waving_Tracing_Enemy_Component",
+                "SphereCollider_Component"
+            ],
+            "Waving_Tracing_Enemy_Component": {},
+            "SphereCollider_Component": {}
+        },
+        {
+            "Name": "Enemy",
+            "Archetype": "Waving_Tracing_Enemy",
+            "Transform_Component": {
+                "translation": [
+                    1482.4249267578126,
+                    -177.5
+                ],
+                "rotation": 0.0,
+                "scale": [
+                    100.0,
+                    100.0
+                ],
+                "depth": 0.5
+            },
+            "Graphics_Component": {
+                "drawspace": "World",
+                "texture": "Textures/Wheel.png"
+            },
+            "Physics_Component": {},
+            "ComponentsToBeAdded": [
+                "Waving_Tracing_Enemy_Component",
+                "SphereCollider_Component"
+            ],
+            "Waving_Tracing_Enemy_Component": {},
+            "SphereCollider_Component": {}
+        },
+        {
+            "Name": "Enemy",
+            "Archetype": "Waving_Enemy",
+            "Transform_Component": {
+                "translation": [
+                    1870.8548583984376,
+                    303.5
+                ],
+                "rotation": 0.0,
+                "scale": [
+                    100.0,
+                    100.0
+                ],
+                "depth": 0.5
+            },
+            "Graphics_Component": {
+                "drawspace": "World",
+                "texture": "Textures/Bat_Down.png"
+            },
+            "Physics_Component": {},
+            "ComponentsToBeAdded": [
+                "Waving_Enemy_Component",
+                "SphereCollider_Component"
+            ],
+            "Waving_Enemy_Component": {},
+            "SphereCollider_Component": {}
+        },
+        {
+            "Name": "Enemy",
+            "Archetype": "Waving_Enemy",
+            "Transform_Component": {
+                "translation": [
+                    1874.8548583984376,
+                    150.5
+                ],
+                "rotation": 0.0,
+                "scale": [
+                    100.0,
+                    100.0
+                ],
+                "depth": 0.5
+            },
+            "Graphics_Component": {
+                "drawspace": "World",
+                "texture": "Textures/Bat_Down.png"
+            },
+            "Physics_Component": {},
+            "ComponentsToBeAdded": [
+                "Waving_Enemy_Component",
+                "SphereCollider_Component"
+            ],
+            "Waving_Enemy_Component": {},
+            "SphereCollider_Component": {}
+        },
+        {
+            "Name": "Enemy",
+            "Archetype": "Waving_Enemy",
+            "Transform_Component": {
+                "translation": [
+                    1873.8548583984376,
+                    -7.5
+                ],
+                "rotation": 0.0,
+                "scale": [
+                    100.0,
+                    100.0
+                ],
+                "depth": 0.5
+            },
+            "Graphics_Component": {
+                "drawspace": "World",
+                "texture": "Textures/Bat_Down.png"
+            },
+            "Physics_Component": {},
+            "ComponentsToBeAdded": [
+                "Waving_Enemy_Component",
+                "SphereCollider_Component"
+            ],
+            "Waving_Enemy_Component": {},
+            "SphereCollider_Component": {}
+        },
+        {
+            "Name": "Enemy",
+            "Archetype": "Waving_Enemy",
+            "Transform_Component": {
+                "translation": [
+                    1868.8548583984376,
+                    -151.5
+                ],
+                "rotation": 0.0,
+                "scale": [
+                    100.0,
+                    100.0
+                ],
+                "depth": 0.5
+            },
+            "Graphics_Component": {
+                "drawspace": "World",
+                "texture": "Textures/Bat_Down.png"
+            },
+            "Physics_Component": {},
+            "ComponentsToBeAdded": [
+                "Waving_Enemy_Component",
+                "SphereCollider_Component"
+            ],
+            "Waving_Enemy_Component": {},
+            "SphereCollider_Component": {}
+        },
+        {
+            "Name": "Enemy",
+            "Archetype": "Waving_Enemy",
+            "Transform_Component": {
+                "translation": [
+                    1869.8548583984376,
+                    -299.5
+                ],
+                "rotation": 0.0,
+                "scale": [
+                    100.0,
+                    100.0
+                ],
+                "depth": 0.5
+            },
+            "Graphics_Component": {
+                "drawspace": "World",
+                "texture": "Textures/Bat_Down.png"
+            },
+            "Physics_Component": {},
+            "ComponentsToBeAdded": [
+                "Waving_Enemy_Component",
+                "SphereCollider_Component"
+            ],
+            "Waving_Enemy_Component": {},
+            "SphereCollider_Component": {}
+        },
+        {
+            "Name": "Enemy",
+            "Archetype": "Straight_Enemy",
+            "Transform_Component": {
+                "translation": [
+                    2125.06640625,
+                    238.5
+                ],
+                "rotation": 0.0,
+                "scale": [
+                    100.0,
+                    100.0
+                ],
+                "depth": 0.5
+            },
+            "Graphics_Component": {
+                "drawspace": "World",
+                "texture": "Textures/Missile.png"
+            },
+            "Physics_Component": {},
+            "ComponentsToBeAdded": [
+                "Straight_Enemy_Component",
+                "SphereCollider_Component"
+            ],
+            "Straight_Enemy_Component": {},
+            "SphereCollider_Component": {}
+        },
+        {
+            "Name": "Enemy",
+            "Archetype": "Straight_Enemy",
+            "Transform_Component": {
+                "translation": [
+                    2122.06640625,
+                    60.5
+                ],
+                "rotation": 0.0,
+                "scale": [
+                    100.0,
+                    100.0
+                ],
+                "depth": 0.5
+            },
+            "Graphics_Component": {
+                "drawspace": "World",
+                "texture": "Textures/Missile.png"
+            },
+            "Physics_Component": {},
+            "ComponentsToBeAdded": [
+                "Straight_Enemy_Component",
+                "SphereCollider_Component"
+            ],
+            "Straight_Enemy_Component": {},
+            "SphereCollider_Component": {}
+        },
+        {
+            "Name": "Enemy",
+            "Archetype": "Straight_Enemy",
+            "Transform_Component": {
+                "translation": [
+                    2118.06640625,
+                    -109.5
+                ],
+                "rotation": 0.0,
+                "scale": [
+                    100.0,
+                    100.0
+                ],
+                "depth": 0.5
+            },
+            "Graphics_Component": {
+                "drawspace": "World",
+                "texture": "Textures/Missile.png"
+            },
+            "Physics_Component": {},
+            "ComponentsToBeAdded": [
+                "Straight_Enemy_Component",
+                "SphereCollider_Component"
+            ],
+            "Straight_Enemy_Component": {},
+            "SphereCollider_Component": {}
+        },
+        {
+            "Name": "Enemy",
+            "Archetype": "Straight_Enemy",
+            "Transform_Component": {
+                "translation": [
+                    2114.06640625,
+                    -304.5
+                ],
+                "rotation": 0.0,
+                "scale": [
+                    100.0,
+                    100.0
+                ],
+                "depth": 0.5
+            },
+            "Graphics_Component": {
+                "drawspace": "World",
+                "texture": "Textures/Missile.png"
+            },
+            "Physics_Component": {},
+            "ComponentsToBeAdded": [
+                "Straight_Enemy_Component",
+                "SphereCollider_Component"
+            ],
+            "Straight_Enemy_Component": {},
+            "SphereCollider_Component": {}
+        },
+        {
+            "Name": "Enemy",
+            "Archetype": "Straight_Enemy",
+            "Transform_Component": {
+                "translation": [
+                    2398.06640625,
+                    148.5
+                ],
+                "rotation": 0.0,
+                "scale": [
+                    100.0,
+                    100.0
+                ],
+                "depth": 0.5
+            },
+            "Graphics_Component": {
+                "drawspace": "World",
+                "texture": "Textures/Missile.png"
+            },
+            "Physics_Component": {},
+            "ComponentsToBeAdded": [
+                "Straight_Enemy_Component",
+                "SphereCollider_Component"
+            ],
+            "Straight_Enemy_Component": {},
+            "SphereCollider_Component": {}
+        },
+        {
+            "Name": "Enemy",
+            "Archetype": "Straight_Enemy",
+            "Transform_Component": {
+                "translation": [
+                    2400.06640625,
+                    -33.5
+                ],
+                "rotation": 0.0,
+                "scale": [
+                    100.0,
+                    100.0
+                ],
+                "depth": 0.5
+            },
+            "Graphics_Component": {
+                "drawspace": "World",
+                "texture": "Textures/Missile.png"
+            },
+            "Physics_Component": {},
+            "ComponentsToBeAdded": [
+                "Straight_Enemy_Component",
+                "SphereCollider_Component"
+            ],
+            "Straight_Enemy_Component": {},
+            "SphereCollider_Component": {}
+        },
+        {
+            "Name": "Enemy",
+            "Archetype": "Straight_Enemy",
+            "Transform_Component": {
+                "translation": [
+                    2400.06640625,
+                    -227.5
+                ],
+                "rotation": 0.0,
+                "scale": [
+                    100.0,
+                    100.0
+                ],
+                "depth": 0.5
+            },
+            "Graphics_Component": {
+                "drawspace": "World",
+                "texture": "Textures/Missile.png"
+            },
+            "Physics_Component": {},
+            "ComponentsToBeAdded": [
+                "Straight_Enemy_Component",
+                "SphereCollider_Component"
+            ],
+            "Straight_Enemy_Component": {},
+            "SphereCollider_Component": {}
+        },
+        {
+            "Name": "object54",
+            "Archetype": "NewObject",
+            "Transform_Component": {
+                "translation": [
+                    2886.13623046875,
+                    -5.5
+                ],
+                "rotation": 0.0,
+                "scale": [
+                    30.0,
+                    1000.0
+                ],
+                "depth": 0.5
+            },
+            "Graphics_Component": {
+                "drawspace": "World",
+                "texture": "Textures/box.png"
+            },
+            "Physics_Component": {},
+            "ComponentsToBeAdded": [
+                "AABB_BoxCollider_Component",
+                "Goal_Component"
+            ],
+            "AABB_BoxCollider_Component": {},
+            "Goal_Component": {}
+        },
+        {
+            "Name": "object55",
+            "Archetype": "NewObject",
+            "Transform_Component": {
+                "translation": [
+                    -707.9660034179688,
+                    348.5
+                ],
+                "rotation": 0.0,
+                "scale": [
+                    144.0,
+                    182.0
+                ],
+                "depth": 0.5
+            },
+            "Graphics_Component": {
+                "drawspace": "Hud",
+                "texture": "Textures//Plane.png"
+            },
+            "Physics_Component": {}
+        },
+        {
+            "Name": "object56",
+            "Archetype": "NewObject",
+            "Transform_Component": {
+                "translation": [
+                    -370.0,
+                    303.5
+                ],
+                "rotation": 0.0,
+                "scale": [
+                    100.0,
+                    100.0
+                ],
+                "depth": 0.5
+            },
+            "Graphics_Component": {
+                "drawspace": "Hud",
+                "texture": "Textures/box.png"
+            },
+            "Physics_Component": {},
+            "ComponentsToBeAdded": [
+                "CooldownBar_Component"
+            ],
+            "CooldownBar_Component": {}
+        },
+        {
+            "Name": "object57",
+            "Archetype": "NewObject",
+            "Transform_Component": {
+                "translation": [
+                    -300.0,
+                    343.5
+                ],
+                "rotation": 0.0,
+                "scale": [
+                    100.0,
+                    100.0
+                ],
+                "depth": 0.5
+            },
+            "Graphics_Component": {
+                "drawspace": "Hud",
+                "texture": "Textures/box.png"
+            },
+            "Physics_Component": {},
+            "ComponentsToBeAdded": [
+                "HP_Component"
+            ],
+            "HP_Component": {}
+        },
+        {
+            "Name": "BackPic",
+            "Archetype": "NewObject",
+            "Transform_Component": {
+                "translation": [
+                    -250.0,
+                    6.5
+                ],
+                "rotation": 0.0,
+                "scale": [
+                    1264.0,
+                    729.0
+                ],
+                "depth": 0.8999999761581421
+            },
+            "Graphics_Component": {
+                "drawspace": "World",
+                "texture": "Textures//BG.png"
+            },
+            "Physics_Component": {},
+            "ComponentsToBeAdded": [
+                "Background_Component"
+            ],
+            "Background_Component": {}
+        }
+    ]
+}

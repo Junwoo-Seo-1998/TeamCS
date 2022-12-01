@@ -1,0 +1,17 @@
+{
+    "Transform_Component":
+    {
+        "translation":[500,0],
+        "scale":[100,100]
+    },
+    "Graphics_Component":
+    {
+
+    },
+    "Physics_Component":
+    {
+
+    },
+
+    "ComponentsToBeAdded":["Waving_Enemy_Component", "SphereCollider_Component"]
+}

@@ -1,0 +1,16 @@
+{
+    "Transform_Component":
+    {
+        "translation":[100,0],
+        "scale":[100,100]
+    },
+    "Graphics_Component":
+    {
+        "texture":"Textures/Plane.png"
+    },
+    "Physics_Component":
+    {
+
+    },
+    "ComponentsToBeAdded":["Player_Component", "Gun_Component", "SphereCollider_Component"]
+}

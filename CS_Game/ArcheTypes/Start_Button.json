@@ -1,0 +1,17 @@
+{
+    "Transform_Component":
+    {
+        "translation":[100, 400],
+        "scale":[300,100]
+    },
+    "Graphics_Component":
+    {
+        "texture":"Textures/Start.png"
+    },
+    "Physics_Component":
+    {
+
+    },
+
+    "ComponentsToBeAdded":["Start_Button_Component"]
+}
